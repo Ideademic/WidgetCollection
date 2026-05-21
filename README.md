@@ -7,6 +7,12 @@ A minimal prompt in shades of blue, without a username and with git support. Eve
 zidgets install https://raw.githubusercontent.com/Ideademic/WidgetCollection/refs/heads/main/themes/blueline.zsh-theme
 ```
 
+## Claude Code
+Short aliases for the [Claude Code](https://claude.com/claude-code) CLI: `cl`, `clc` (`--continue`), `clr` (`--resume`), `clrm` (`remote-control`), `clrmi` (`--remote-control`), `cldanger` (`--allow-dangerously-skip-permissions`).
+```
+zidgets install https://raw.githubusercontent.com/Ideademic/WidgetCollection/refs/heads/main/plugins/claude-code.plugin.zsh
+```
+
 ## FS Aliases
 A small bundle of file/directory helpers: `l`/`ll` time-sorted listings, `mc` (mkdir + cd), `up [N]` (cd up N levels), `cdr` (cd to git root), `bak`/`unbak` (timestamped backup + restore), `lsbig [N]` (biggest entries in pwd), `recent [N]` (most recently modified files).
 ```
